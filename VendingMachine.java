@@ -1,0 +1,13 @@
+// import java.util.List;
+
+public class VendingMachine {
+    // private final List<Product> products;
+
+    // public VendingMachine(List<Product> products){
+    //     this.products = products;
+    // }
+
+    // public Product getProduct(String name, Double volume){
+
+    // }
+}
