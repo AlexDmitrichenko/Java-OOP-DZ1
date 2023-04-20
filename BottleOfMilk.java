@@ -1,8 +1,8 @@
 public class BottleOfMilk extends Product{
-    private Double volume; 
+    private int volume; 
     private Double richness; 
     
-    public BottleOfMilk( String name, String brand, Double richness, Double volume, Double price){
+    public BottleOfMilk( String name, String brand, Double richness, int volume, Double price){
         super(name, brand, price);
         this.richness = richness;
         this.volume = volume;
@@ -10,14 +10,14 @@ public class BottleOfMilk extends Product{
    
     @Override
     String displayInfo() {
-        return String.format("%s от %s - Жирность %.1f - Объём %.1f л. - Цена %.2f руб.", name, brand, richness, volume, price);
+        return String.format("%s от %s - Жирность %.1f проц. - Объём %d л. - Цена %.2f руб.", name, brand, richness, volume, price);
     }
 
-    public Double getVolume() {
+    public int getVolume() {
         return volume;
     }
 
-    public void setVolume(Double volume) {
+    public void setVolume(int volume) {
         this.volume = volume;
     }
 

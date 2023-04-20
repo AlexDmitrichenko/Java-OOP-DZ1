@@ -1,8 +1,8 @@
 public class Product {
+    public static final char[] getWeight = null;
     protected String name;
     String brand;
     protected Double price;
-    // Double volume;
 
     public String getName(){
         return name;
